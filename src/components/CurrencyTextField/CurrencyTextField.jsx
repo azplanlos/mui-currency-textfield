@@ -4,11 +4,11 @@ import { withStyles } from "tss-react/mui"
 import { TextField, InputAdornment } from "@mui/material"
 import React from "react"
 
-const styles = (theme) => ({
-  textField: (props) => ({
-    textAlign: props.textAlign || "right",
-  }),
-})
+const styles = theme => ({
+  textField: {
+    textAlign: props => props.textAlign || "right"
+  }
+});
 
 /**
  * CurrencyTextField is a [react](https://reactjs.org/) component with automated currency and number format, and with [Material-ui](https://material-ui.com/) look and feel.
@@ -75,33 +75,33 @@ class CurrencyTextField extends React.Component {
       this.props
 
     const otherProps = {}
-    ;[
-      "id",
-      "label",
-      "className",
-      "autoFocus",
-      "variant",
-      "style",
-      "error",
-      "disabled",
-      "type",
-      "name",
-      "defaultValue",
-      "tabIndex",
-      "fullWidth",
-      "rows",
-      "rowsMax",
-      "select",
-      "required",
-      "helperText",
-      "unselectable",
-      "margin",
-      "SelectProps",
-      "multiline",
-      "size",
-      "FormHelperTextProps",
-      "placeholder",
-    ].forEach((prop) => (otherProps[prop] = this.props[prop]))
+      ;[
+        "id",
+        "label",
+        "className",
+        "autoFocus",
+        "variant",
+        "style",
+        "error",
+        "disabled",
+        "type",
+        "name",
+        "defaultValue",
+        "tabIndex",
+        "fullWidth",
+        "rows",
+        "rowsMax",
+        "select",
+        "required",
+        "helperText",
+        "unselectable",
+        "margin",
+        "SelectProps",
+        "multiline",
+        "size",
+        "FormHelperTextProps",
+        "placeholder",
+      ].forEach((prop) => (otherProps[prop] = this.props[prop]))
 
     return (
       <TextField
