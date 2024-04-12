@@ -1,4 +1,4 @@
-import CurrencyTextField from '@lupus-ai/mui-currency-textfield';
+import CurrencyTextField from '@puhlup/mui-currency-textfield';
 import { Button } from "@mui/material"
 import React from 'react';
 

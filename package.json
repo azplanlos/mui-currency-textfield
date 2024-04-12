@@ -1,6 +1,6 @@
 {
-  "name": "@lupus-ai/mui-currency-textfield",
-  "version": "1.0.3",
+  "name": "@puhlup/mui-currency-textfield",
+  "version": "1.0.4",
   "description": "Currency input textfield for react with Material-ui style",
   "keywords": [
     "material design",
@@ -11,7 +11,7 @@
     "react"
   ],
   "main": "./dist/index.js",
-  "homepage": "https://lupusai.github.io/mui-currency-textfield/",
+  "homepage": "https://puhlup.github.io/mui-currency-textfield/",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LupusAI/mui-currency-textfield.git"
+    "url": "git+https://github.com/puhlup/mui-currency-textfield.git"
   },
-  "author": "LupusAI",
+  "author": "PuhlUP",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
