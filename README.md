@@ -1,7 +1,7 @@
 # Currency Textfield for Material UI version 5 (MUI)
-[![npm version](https://badge.fury.io/js/%40lupus-ai%2Fmui-currency-textfield.svg)](https://www.npmjs.com/package/%40lupus-ai%2Fmui-currency-textfield)
+[![npm version](https://badge.fury.io/js/%40puhlup%2Fmui-currency-textfield.svg)](https://www.npmjs.com/package/%40puhlup%2Fmui-currency-textfield)
 
-`CurrencyTextField` is a [MUI v5](https://mui.com/) [React](https://reactjs.org/) component and provides a user friendly experience while inputing currency numbers.
+`CurrencyTextField` is a [MUI v5](https://mui.com/) [React](https://reactjs.org/) v18 component and provides a user friendly experience while inputing currency numbers.
 
 It works by wrapping the functionality of <a href="https://github.com/autoNumeric/autoNumeric">autonumeric</a>.
 
@@ -16,7 +16,7 @@ Main features:
 ## Install
 
  ```bash
- npm install @lupus-ai/mui-currency-textfield --save
+ npm install @puhlup/mui-currency-textfield --save
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Main features:
 
 ```jsx
 import React from 'react'
-import CurrencyTextField from '@lupus-ai/mui-currency-textfield'
+import CurrencyTextField from '@puhlup/mui-currency-textfield'
 
 export default function MyComponent() {
 
@@ -53,7 +53,7 @@ export default function MyComponent() {
 
 In order to extend the component, clone the project and install the dependencies.
 ```bash
-$ git clone https://github.com/LupusAI/mui-currency-textfield.git
+$ git clone https://github.com/puhlup/mui-currency-textfield.git
 $ npm install
 ```
 
@@ -67,7 +67,7 @@ Builds the component outputing it in the `dist` folder. It is refreshed everytim
 npm start
 ```
 
-To see the output in the browser run the example app ([/example](https://github.com/LupusAI/mui-currency-textfield/tree/master/example))
+To see the output in the browser run the example app ([/example](https://github.com/puhlup/mui-currency-textfield/tree/master/example))
 
 ```bash
  cd example 
