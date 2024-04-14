@@ -1,6 +1,6 @@
 {
-  "name": "@puhlup/mui-currency-textfield",
-  "version": "1.0.4",
+  "name": "@puhl/mui-currency-textfield",
+  "version": "1.0.5",
   "description": "Currency input textfield for react with Material-ui style",
   "keywords": [
     "material design",
@@ -11,7 +11,7 @@
     "react"
   ],
   "main": "./dist/index.js",
-  "homepage": "https://puhlup.github.io/mui-currency-textfield/",
+  "homepage": "https://github.com/puhlup/mui-currency-textfield.git",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
@@ -51,5 +51,11 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "tss-react": "^4.5.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "bugs": {
+    "url": "https://github.com/puhlup/mui-currency-textfield/issues"
   }
 }
