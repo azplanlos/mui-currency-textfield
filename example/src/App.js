@@ -1,4 +1,4 @@
-import CurrencyTextField from '@puhlup/mui-currency-textfield';
+import CurrencyTextField from '@puhl/mui-currency-textfield';
 import { Button } from "@mui/material"
 import React from 'react';
 
@@ -23,6 +23,19 @@ function App() {
         helperText={"minimum number is 100"}
         decimalCharacter="."
         digitGroupSeparator=","
+      />
+      <Button onClick={resetValue}>Reset</Button>
+      <CurrencyTextField
+        label="Amount"
+        value={value}
+        currencySymbol="R$"
+        maximumValue={"100000000000000000"}
+        autoFocus
+        onChange={(e, value) => setValue(value)}
+        error={error}
+        helperText={"minimum number is 100"}
+        decimalCharacter=","
+        digitGroupSeparator="."
       />
       <Button onClick={resetValue}>Reset</Button>
     </div>
