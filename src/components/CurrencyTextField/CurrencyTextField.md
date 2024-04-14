@@ -204,7 +204,7 @@ const [value, setValue] = React.useState(100);
 #### Usage with showing more props
 ```html
 import React from 'react'
-import CurrencyTextField from '@lupus-ai/mui-currency-textfield'
+import CurrencyTextField from '@puhl/mui-currency-textfield'
 
 export default function MyComponent() {
 
