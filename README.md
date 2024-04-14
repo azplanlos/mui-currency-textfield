@@ -16,7 +16,7 @@ Main features:
 ## Install
 
  ```bash
- npm install @puhlup/mui-currency-textfield --save
+ npm install @puhl/mui-currency-textfield --save-dev
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Main features:
 
 ```jsx
 import React from 'react'
-import CurrencyTextField from '@puhlup/mui-currency-textfield'
+import CurrencyTextField from '@puhl/mui-currency-textfield'
 
 export default function MyComponent() {
 
